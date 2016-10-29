@@ -1,0 +1,215 @@
+#container{
+	background-color:white;
+	
+}
+
+header{
+	width:960px;
+	height: 70px;
+	margin: 0 auto;
+	/*margin: 0 auto;*/
+	line-height: 250%;
+	/*padding-left: 100px;*/
+	font-size: 1.75em;
+	font-family:"Georgia";
+	background-color: white;
+	border-bottom: 3px;
+	border-color: #dddddd;
+
+}
+
+#Name{
+	padding-left: 40px;
+	/*margin-left:150px;*/
+	float:left;
+	width: 7em;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+#RightUL{
+    list-style-type: none;
+    height:1em;
+}
+
+.NavBar{
+	float:right;
+	height:1.25em;
+	font-family:"Arial";
+	font-size:.8em;
+	/* margin:auto auto;*/
+	border-left:1px solid #000;
+	/*padding-top: 10px;*/
+}
+
+.NavLinks{
+	display: block;
+    color: eee;
+    text-align: center;
+    padding: 0 18px;
+    text-decoration: none;
+}
+
+body{
+	background-image: url("gray-paper.jpg");
+	background-color: #cccccc;
+}
+
+#BodyArea{
+
+	clear:both;
+	/*background-image: url("assets/images/gray-paper.jpg");*/
+	background-color: #dddddd;
+
+
+}
+
+#MainArea{
+	width:960px;
+	margin: 0 auto;
+	position:relative;
+	top:30px;
+
+}
+
+
+
+#AboutMe{
+	float:left;
+	width:600px;
+	/*height:400px;*/
+	background-color: white;
+	border-color: #dddddd;
+	padding: 25px;
+
+}
+
+#SectionHeader{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.75em;
+	color: #4aaaa5;
+	line-height: 150%;
+	border-bottom:3px solid #ddd;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+
+#Connect{
+
+	float:right;
+	width:230px;
+	
+	background-color: white;
+	border-color: ,#dddddd;
+	padding: 20px;
+
+}
+
+#ConnectHeader{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.25em;
+	color: #4aaaa5;
+	line-height: 150%;
+	border-bottom:3px solid #ddd;
+	font-weight: bold;
+}
+
+#linkedinicon{
+  margin:0 15px;
+}
+
+#Icons{
+
+	padding-top:10px;
+}
+
+#imgdiv{
+	float:left; 
+	overflow:auto;
+	width:200px;
+	margin-right: 20px;
+}
+
+p{
+	margin-left: 10px;
+	line-height:150%;
+	font-family:"Arial";
+	font-size: 1.25em;
+}
+
+#Form{
+	font-family: "Arial";
+	font-size:1.1em;
+	line-height: 200%;
+	color:#888;
+}
+
+input{
+	font-family: "Arial";
+	font-size:1.1em;
+	width:100%;
+	/*line-height: 150%*/
+	padding:10px 0px;
+	padding-left: 5px;
+	color:#ddd;
+}
+
+#submit{
+	padding:15px;
+	width: 20%;
+	background-color: #4aaaa5;
+	color:#fff;
+
+}
+
+.TilesLeft{
+	width:275px;
+	float:left;
+	margin: 20px 0;
+	height:200px;
+}
+
+.TilesRight{
+	width:275px;
+	float:right;
+	margin: 20px 0;
+	height:200px;
+}
+
+.TileImage{
+	float:left;
+
+}
+.Labels{
+	float:left;
+	width:100%;
+	position:relative;
+	bottom:50px;
+	text-align:center;
+	font-size:1.2em;
+	line-height: 200%;
+
+	background-color: #4aaaa5;
+	color:#fff;
+
+}
+
+footer{
+	clear:both;
+	width:100%;
+	height:70px;
+	background-color:#666666;
+	position:absolute;
+  	bottom: 0;
+  	color:#cccccc;	
+  	text-align:center;
+  	line-height: 200%;
+  	font-family: "Arial";
+
+}
+
+#footertxt{
+	font-size:1.1em;
+	padding:20px;
+}
